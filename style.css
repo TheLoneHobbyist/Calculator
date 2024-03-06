@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    min-width: 350px;
+}
+.displayBox {
+    background-color: gray;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#display {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: bold;
+    background:none;
+    border-style: none;
+    color: white;
+
+}
+
+input {
+    text-align: right;
+    width: 360px;
+}
+
+button {
+    font-size: 48px;
+    padding: 10px;
+}
+.row1,.row2,.row3,.row4,.row5 {
+    margin: 10px;
+    display: flex;
+    gap: 0.5rem;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn10,#btn11,#btn12,
+#btn13,#btn14,#btn15,#btn16 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#btn17 {
+    width: 175px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#btn18,#btn19 {
+    width: 85px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#btn1,#btn2,#btn3,#btn4,#btn8, #btn12, #btn16, #btn19 {
+    background-color: hsl(29, 100%, 44%);
+}
+#btn1:hover ,#btn2:hover ,#btn3:hover ,#btn4:hover ,#btn8:hover , #btn12:hover , #btn16:hover , #btn19:hover {
+    background-color: hsl(29, 100%, 64%);
+}
+
